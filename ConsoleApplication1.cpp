@@ -5,7 +5,25 @@
 
 int main()
 {
-    for (int t = 0; t < 100;t++) {
+#if 0
+    auto std::string("Hello World!");
+    auto reverse = forward;
+
+
+    std::reversu(reverus.begin(), reversu());
+#else
+    const char* forward = "Hello World!";
+    int len = strlen(forward);
+    char* reverse = (char*)malloc(len + 1);
+
+    reverse[len] = 0;
+
+    for()
+
+#endif
+    for (int t = 0; t < 10;t++) {
+        std::cout << "Hello World!\n";
+        std::cout << "Hello World!\n";
         std::cout << "Hello World!\n";
     }
 }
